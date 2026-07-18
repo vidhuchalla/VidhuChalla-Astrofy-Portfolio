@@ -11,53 +11,57 @@ const last_posts = posts.slice(0, 3);
 
 <BaseLayout sideBarActiveItemID="home">
   <div class="pb-12 mt-5">
-    <div class="text-xl py-1">Hey there 👋</div>
-    <div class="text-5xl font-bold">I'm Manuel Ernesto</div>
-    <div class="text-3xl py-3 font-bold">Software Engineer and Entrepreneur</div>
-    <div class="py-2">
-      <text class="text-lg">
-        This is <b>Astrofy</b> a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS.
-        Create in minutes a website with Blog, CV, Project Section, Store and RSS Feed. I hope you find
-        it useful!
-      </text>
+    <div class="text-xl py-1">Hello!</div>
+
+    <div class="text-5xl font-bold">I'm Vidhu Challa</div>
+
+    <div class="text-3xl py-3 font-bold">
+      High School Student • Aspiring Software Engineer
     </div>
+
+    <div class="py-2">
+      <p class="text-lg">
+        Welcome to my personal portfolio! I'm a student at American High School
+        with a passion for computer science, artificial intelligence, and
+        software development. I enjoy building Python projects, learning new
+        technologies, and continuously improving my programming skills.
+      </p>
+    </div>
+
     <div class="mt-8">
-      <a class="btn" href="https://twitter.com/manuelernestog" target="_blank"> Let's connect!</a>
-      <a href="https://github.com/manuelernestog/astrofy" target="_blank" class="btn btn-outline ml-5">
-        Get This template
+      <a
+        class="btn"
+        href="mailto:vidu.challa@gmail.com"
+      >
+        Contact Me
+      </a>
+
+      <a
+        href="https://github.com/vidhuchalla"
+        target="_blank"
+        class="btn btn-outline ml-5"
+      >
+        View GitHub
       </a>
     </div>
   </div>
 
   <div>
-    <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
+    <div class="text-3xl w-full font-bold mb-2">Featured Project</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
+    title="Python Calculator"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
+    desc="A command-line calculator built in Python that performs basic arithmetic operations while demonstrating programming fundamentals such as functions, conditional logic, and user input handling."
+    url="https://github.com/vidhuchalla"
+    badge="Python"
   />
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">
+      Latest Blog Posts
+    </div>
   </div>
 
   {
